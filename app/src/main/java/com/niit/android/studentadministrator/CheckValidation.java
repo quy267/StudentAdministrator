@@ -23,7 +23,7 @@ public class CheckValidation {
     }
 
     public boolean checkPhoneNumber(String phoneNumber) {
-        String NUMBER_PATTERN = "(^[09]?\\d{10})|(^[01]?\\d{11})";
+        String NUMBER_PATTERN = "(^09\\d{8}$)|(^01\\d{9}$)";
         Pattern pattern = Pattern.compile(NUMBER_PATTERN);
         Matcher matcher = pattern.matcher(phoneNumber);
         return matcher.matches();

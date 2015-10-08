@@ -70,7 +70,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     String phoneNumber = editTextPhone.getText().toString();
                     String email = editTextEmail.getText().toString();
                     CheckValidation objValidation = new CheckValidation();
-                    if (objValidation.checkPhoneNumber(phoneNumber) && objValidation.checkFullName(yourName) && objValidation.checkEmail(email)) {
+                    if (objValidation.checkPhoneNumber(phoneNumber)) {
                         Toast.makeText(this, "Register success", Toast.LENGTH_SHORT).show();
                         return;
                     } else {
