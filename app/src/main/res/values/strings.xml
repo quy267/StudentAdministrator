@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Student Administrator</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="country_arrays">
+        <item>Ha Noi</item>
+        <item>Hai Phong</item>
+        <item>Hung Yen</item>
+        <item>Hai Duong</item>
+        <item>Nam Dinh</item>
+        <item>Thai Binh</item>
+    </string-array>
+    <string-array name="trade_arrays">
+        <item>IT</item>
+        <item>Doctor</item>
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
+
+</resources>
